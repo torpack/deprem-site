@@ -33,7 +33,7 @@ function displayEarthquakes(earthquakes) {
         item.className = 'earthquake-item';
         item.innerHTML = `
           <h3>${title}</h3>
-          <p><strong>Şiddet:</strong> ${mag} - <strong>Derinlik:</strong> ${depth} km</p>
+          <p><strong>Siddet:</strong> ${mag} - <strong>Derinlik:</strong> ${depth} km</p>
           <p><strong>Tarih:</strong> ${date}</p>
           <p><strong>En Yakın Şehir:</strong> ${location_properties.closestCity.name} (${(location_properties.closestCity.distance / 1000).toFixed(2)} km)</p>
       `;
