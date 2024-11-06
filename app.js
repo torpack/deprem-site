@@ -43,7 +43,7 @@ function displayEarthquakes(earthquakes) {
             L.marker([lat, long], {icon: greenIcon}).addTo(map)
                 .bindPopup(`
                   <strong>${title}</strong><br>
-                  Şiddet: ${mag} - Derinlik: ${depth} km<br>
+                  Siddet: ${mag} - Derinlik: ${depth} km<br>
                   Tarih: ${date}
               `);
         }
